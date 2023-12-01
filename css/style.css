@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.home-text h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 30px 0;
+}
+.header{
+    background: radial-gradient(#fff,rgb(189, 187, 187));
+    
+}
+.categories-text h1,.product-text h1{
+    padding: 15px;
+    position: relative;
+    color: #555;
+}
+.categories-text h1::after, .product-text h1::after{
+    content: '';
+    background: red;
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.category-img, .offer-img{
+    transition: 0.5s; 
+}
+.category-img:hover, .offer-img:hover{
+    transform: translateY(-10px);
+}
+.rating{
+    color: #ff523b;
+}
+.product-img{
+    transition: 0.5s; 
+}
+.product-img:hover{
+    transform: scale(1.1);
+}
+
+.offer-card{
+    background-color:rgb(239, 239, 239) ;
+}
+.testimonial-img{
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.testimonial-card{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.testimonial-card:hover{
+    transform: translateY(-10px);
+}
+.brand-img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.brand-img:hover{
+    filter: grayscale(0);
+}
+.footer{
+    background-color: rgb(24, 24, 24);
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 70px 0 30px;
+}
+.footer li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.footer h3{
+    color: #fff;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 25px 0;
+}
+.hero {
+    background-image: url('./../assets/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.about-content {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.icon-box {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.empty{
+    font-size: 3rem;
+    text-align: center;
+    color: #ff523b;
+    margin: 100px;
+}
+/* .p-img{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+} */
